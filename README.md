@@ -1,7 +1,5 @@
 # TP SISR : Déploiement de WordPress et Zabbix avec Docker sur Debian 12
 
-Ce projet détaille l'installation et le déploiement d'une VM sous
-**Debian 12** permettant de mettre en place deux services :\
 - **WordPress**, un CMS complet, - **Zabbix**, un outil de supervision
 professionnel,
 
@@ -11,9 +9,8 @@ Les deux services sont déployés via **Docker** et **Docker Compose**.
 
 ## 📌 Prérequis
 
--   Une **VM Debian 12** (idéalement sur Proxmox)
+-   Une **VM Debian 12** sur Proxmox
 -   Accès terminal **Bash**
--   Connexion Internet
 -   **Docker** & **Docker Compose** (installés via le script)
 -   **Git** installé (pour récupérer le projet)
 
@@ -191,19 +188,5 @@ WordPress/Zabbix et les services DB.
 
 ------------------------------------------------------------------------
 
-## ✔️ 7. Critères du TP
 
--   Projet clonable via Git\
--   Script Bash fonctionnel et automatisé\
--   Installation Docker/Compose automatisée\
--   WordPress opérationnel\
--   Zabbix opérationnel\
--   README complet, clair et structuré
-
-------------------------------------------------------------------------
-
-## 🎉 Fin du projet
-
-Votre VM est maintenant capable d'héberger WordPress et Zabbix grâce à
-Docker.
 
